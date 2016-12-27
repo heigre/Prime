@@ -1,11 +1,11 @@
 n = []
 checker = []
-x = 200001611
+x = 400001611
 for y in range (2, x+1): 
     z = x/(float(y))
     checker.append(z)
     #print checker
-    #print z
+    print z
 
 
 for k in range (0, x-1):
